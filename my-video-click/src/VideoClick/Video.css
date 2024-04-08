@@ -1,0 +1,49 @@
+.background{
+    background-color: #E7F1F8;
+    padding: 0rem;
+
+}
+.container{
+    display: flex;
+}
+.imgCol{
+    background-color: rgba(0, 0, 0, 0.075);
+}
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.facilitatorCard img{
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.backgrpcolor{
+    background-color: #000000a3;
+    opacity: 2;
+    position: absolute;
+    width: 250px;
+    height: 89vh;
+    top: 0;
+    border-radius: 10px;
+
+}
+.imgBtns{
+   
+    /* background-color: rgba(0, 0, 0, 0.055); */
+    position: relative;
+}
+.imgBtns img{
+    position: relative;
+}
+.ButtonClick{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    background-image: url(../Asset/IMG/PlayClick.png);
+    width: 20%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 50px;
+    cursor: pointer;
+}
